@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Me',
   name: 'Kimin Kim',
   subtitle: 'I\'m a full-stack web developer',
   cta: '',
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: './Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
