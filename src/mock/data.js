@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Kimin Kim | Full-stack Developer', // e.g: 'Name | Developer'
+  title: 'Kimin Kim | Software Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Me',
+  title: 'Hi! My name is ',
   name: 'Kimin Kim',
-  subtitle: 'I\'m a full-stack web developer',
+  subtitle: 'Software Engineer',
   cta: '',
 };
 
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'memories.png',
+    title: 'Memories',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://memories-project-kimki.netlify.app',
+    repo: 'https://github.com/kiminkim724/memories_project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to hire me? Awesome!',
+  btn: "Let's connect!",
+  email: 'kim.ki@northeastern.edu',
 };
 
 // FOOTER DATA
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
