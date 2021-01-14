@@ -30,19 +30,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'memories.png',
     title: 'Memories',
-    info: '',
-    info2: '',
+    info:
+      'This project is a website that allows users to create memories with a title, message, tag(s), and an image. Each memory can be updated/deleted and also liked.',
+    info2:
+      'This project was created using the MERN Stack, MongoDB was used to store the posts for each memory, Express for the backend to handle requests to create/update the posts, React for the front-end to display the posts.',
     url: 'https://memories-project-kimki.netlify.app',
     repo: 'https://github.com/kiminkim724/memories_project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'personal-portfolio.png',
+    title: 'Personal Portfolio',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/kiminkim724/personal-portfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
