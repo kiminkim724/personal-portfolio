@@ -48,6 +48,17 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/kiminkim724/personal-portfolio', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'excellence.png',
+    title: 'Excellence Animator',
+    info:
+      'This is a simple animator that was created using MVC(model view controller). It takes in a text file that contains scenes at various ticks, which then animates them into shapes.',
+    info2:
+      'The code is made private at the request of the instructors. You may view the source code if asked for permission.',
+    url: 'https://imgur.com/9INgRIi',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
