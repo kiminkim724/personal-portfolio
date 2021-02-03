@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: "Hello! I'm Kimin Kim, a computer science student at Northeastern University.",
+  paragraphTwo:
+    "I'm currently interested in learning full-stack development and I've been trying to create projects to practice these skills.",
+  paragraphThree:
+    "Apart from coding, I like to play badminton and volleyball. But because of COVID, I've spent a lot of time playing video games.",
   resume: './Resume.pdf', // if no resume, the button will not show up
 };
 
@@ -41,19 +43,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'personal-portfolio.png',
     title: 'Personal Portfolio',
-    info: '',
+    info: 'This is my personal website that was created using Gatsby.',
     info2: '',
     url: '',
     repo: 'https://github.com/kiminkim724/personal-portfolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
