@@ -30,6 +30,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'searchneu.png',
+    title: 'SearchNEU',
+    info:
+      'SearchNEU lets you easily search for classes, professors, and subjects at Northeastern. All the data on the site is scraped from different parts of Northeastern\'s websites and updated daily. The scrapers themselves run on the Course Catalog API, which is hosted on Amazon Web Services.',
+    info2:
+      '',
+    url: 'https://searchneu.com/NEU',
+    repo: 'https://github.com/sandboxnu/searchneu', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'marinograph.png',
     title: 'Marino Tracker',
     info:
@@ -47,17 +58,6 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/kiminkim724/personal-portfolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'excellence.png',
-    title: 'Excellence Animator',
-    info:
-      'This is a simple animator that was created using MVC(model view controller). It takes in a text file that contains scenes at various ticks, which then animates them into shapes.',
-    info2:
-      'The code is made private at the request of the instructors. You may view the source code if asked for permission.',
-    url: 'https://imgur.com/9INgRIi',
-    repo: '', // if no repo, the button will not show up
   },
 ];
 
