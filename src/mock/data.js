@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'final_poster.png',
     title: 'Karaoke Area in Covey.town',
     info: 'This project was developed in my Software Engineering class, where we work on a time in sprints to create an additional feature to an existing project called Covey.Town. ',
-    info2: 'Our group chose to implement a Spotify Player using the Web Playback SDK and the Web API to create a listening room where multiple people can listen at the same time.',
+    info2: 'Our group chose to implement a Spotify Player using the Web Playback SDK and the Web API to create a listening room where multiple people can listen at the same time. The Tech Stack used was Typescript, React, MongoDB, TSOA.',
     url: 'https://covey-town-karaoke.netlify.app/',
     img_url: 'https://docs.google.com/presentation/d/1YLv8neVqy6ZhPmiqstw1go5Cjx5yIRSByvsPUEg1O9k/edit#slide=id.p',
     repo: 'https://github.com/kiminkim724/cs4530-final', // if no repo, the button will not show up
@@ -51,6 +51,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'webdev.png',
+    title: 'Spotify Album Reviews',
+    info: 'This is a full stack project for my Web development class that allows users to view and review albums/songs from Spotify using data that is directly pulled from their API.',
+    info2: 'Users can also follow other users and have a personalized home page. There are also admin roles to moderate reviews and users.The tech stack used was React, Node.js, Express and MongoDB.',
+    url: '',
+    repo: 'https://github.com/kiminkim724/cs4550-final-project', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'marinograph.png',
     title: 'Marino Tracker',
     info:
@@ -59,15 +68,6 @@ export const projectsData = [
       "I first scraped the head count from the school's website and then uploaded the data to a MongoDB database, then used a Flask server to be able to get the data from the database and then calculate the averages and send it to the Next.js frontend",
     url: 'https://marino-graph.vercel.app/',
     repo: 'https://github.com/kiminkim724/marino-graph', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'personal-portfolio.png',
-    title: 'Personal Portfolio',
-    info: 'This is my personal website that was created using Gatsby.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/kiminkim724/personal-portfolio', // if no repo, the button will not show up
   },
 ];
 
