@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'final_poster.png',
+    title: 'Karaoke Area in Covey.town',
+    info: 'This project was developed in my Software Engineering class, where we work on a time in sprints to create an additional feature to an existing project called Covey.Town. ',
+    info2: 'Our group chose to implement a Spotify Player using the Web Playback SDK and the Web API to create a listening room where multiple people can listen at the same time.',
+    url: 'https://covey-town-karaoke.netlify.app/',
+    img_url: 'https://docs.google.com/presentation/d/1YLv8neVqy6ZhPmiqstw1go5Cjx5yIRSByvsPUEg1O9k/edit#slide=id.p',
+    repo: 'https://github.com/kiminkim724/cs4530-final', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'searchneu.png',
     title: 'SearchNEU',
     info:
